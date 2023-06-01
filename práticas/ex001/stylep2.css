@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, white, darkgray);
+    padding: 40px;
+}
+main{
+    font-family: sans-serif;
+    background-color:black;
+    color: white;
+    width: auto;
+    padding: 15px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #1a63b1d5;
+}
+h1#principal{
+    width: auto;
+    text-align: center;
+    font-size: 4em;
+    background-image:linear-gradient(to right,#1A62B1, #399DD8, #E4E3E2, #399DD8, #1A62B1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+div{
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+.clic:hover{
+    background-color: #e34c2671;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px orangered;
+}
+.clic:active{
+    background-color: orangered;
+    box-shadow: none;
+}

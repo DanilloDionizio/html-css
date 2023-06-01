@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="shortcut icon" href="favi/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stylep2.css">
+</head>
+<body>
+    <div>
+        <img src="imagens/css3-logo.png" alt="Ícone CSS3">
+    </div>
+    <main>
+        <h1 id="principal">O que aprendemos até agora</h1>
+        <h2>Tipos de utilização das CSS</h2>
+        <p>Temos 3 formas de incluir um estilo CSS em seu documento HTML, são eles:</p> <br>
+        <dl>
+            <p>
+                <dt>Inline:</dt>
+            </p>
+            <dd>Quando o estilo é direcionado expecificamente para a tag que você deseja estilizar</dd> <br>
+            <dt>Interno</dt>
+            <dd>É possível incluir o estilo em tudo que você selecionar no próprio documento HTML, sendo necessário incluir uma tag &lt;style&gt; dentro da área de Cabeça &lt;head&gt; </dd>
+            <dt>Externo:</dt>
+            <dd>Basicamente é criar um documento a parte para fazer a estilização do documento HTML</dd>
+        </dl>
+        <h2>Adicionando Cores</h2>
+        <p>
+            Você pode abrir uma outra página para usar somente CSS:
+            Não esqueça de colocar o @charset "UTF-8" para não ter      incompatibilidade com acentos dentre outros.
+        </p>
+        <h3>Seletores:</h3>
+        <p>
+            * (asterisco) é um seletor de configuração global das       CSS. <br>
+
+            Crie o seletor da tag que você deseja adicionar estilo.
+            body, h1, h2, p...
+            sempre adicionar o {} após o seletor.
+        </p>
+        <h3>Cor da letra e plano de fundo:</h3>
+        <p>Color: ; muda a cor da letra</p>
+
+        <p>background-color:; muda a cor de fundo</p>
+
+        <p>
+            background-image: linear-gradient ( )Você adiciona um       Degradê ao fundo da página
+           exemplo:
+        
+        <pre>
+         <code>
+    body {
+         background-image: linear-gradient(to top, black, grey, white)
+    }
+         </code>
+        </pre>
+
+           vai fazer um degradê do preto para o branco
+           ao invés de utilizar to top, right, left, bottom...
+           Pode utilizar em graus, indicando o numero e digitar     "deg" em seguida.
+        </p>
+
+        <p>
+            Ao invés de linear-gradient, pode utilizar radial-gradient
+
+            apos os decimais das cores, você pode incluir a 
+            porcentagem da cor que vai aparecer.
+        </p>
+        <h3>Configuração de Caixas</h3>
+        <p>
+            border-radius:
+            Irá arredondar as pontas de uma caixa de texto expecificada.
+            Utilizar em pixels 10px, por exemplo
+        </p>
+
+        <p>
+            box-shadow:
+            Irá criar sombra nas letras. <br>
+            Parâmetro 1: o quanto a sombra irá para o lado <br>
+            Parâmetro 2: o quanto a sombra irá para baixo <br>
+            Parâmetro 3: o quanto a sombra irá espalhar <br>
+            Parâmetro 4: a cor que a sombra terá
+        </p>
+        <h3>Configurações de texto:</h3>
+
+        <p>
+            text-align:
+            alinhará o texto da forma que você quiser
+        </p>
+
+        <p>
+            text-shadow:
+            irá incluir sombra no texto selecionado
+            mesmos parâmetros do box-shadow
+        </p>
+        <h1>AINDA EM DESENVOLVIMENTO...</h1>
+        <p>Clique na imagem abaixo para retornar ao HTML</p>
+    </main>
+    <div class="clic">
+        <a href="html.html" target="_self"><img src="imagens/html-logo.png" alt="Logo html5"></a>
+    </div>
+</body>
+</html>

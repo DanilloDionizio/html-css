@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, white, darkgray);
+    padding: 40px;
+}
+main{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    width: auto;
+    padding: 15px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba(247, 111, 0, 0.76);
+}
+h1#principal{
+    width: auto;
+    text-align: center;
+    font-size: 4em;
+    background-image:linear-gradient(to right, #E34C26 25%, #F06529, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+h2{
+    text-align: center;
+}
+.exemplo{
+    text-align: left;
+}
+p{
+    text-align: justify;
+}
+div{
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+.clic:hover{
+    background-color: #1a63b188;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px blue;
+}
+.clic:active{
+    background-color: blue;
+    box-shadow: none;
+}
+img{
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+}

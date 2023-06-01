@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <link rel="stylesheet" href="stylep1.css">
+    <link rel="shortcut icon" href="favi/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <div>
+        <img src="imagens/html-logo.png" alt="icone html">
+    </div>
+    <main>
+        
+        <h1 id="principal">O que aprendi até agora</h1>
+        <h2>Como o computador entende?</h2>
+        <p>
+        Um computador não entende nossa linguagem, apenas em Binário, que são Zeros (0) e Ums (1), também representado como Ondas Quadradas, por isso foram feitos programas que "traduzem" nossa linguagem para a linguagem do computador, facilitando a comunicação com o mesmo.
+        (0) ou (1) é chamado de Bit, que vem de Binary Digit.
+        </p>
+        <h2>Como funciona o armazenamento do Computador?</h2>
+        <p>Conforme o texto acima, 0 e 1 = 1Bit, a porção minima para representar um dado é de 8bits ou 1byte.</p>
+        <h3>Como o computador calcula isso?</h3>
+        <p>
+            Computadores trabalham com base 2 de referência, sendo sempre 2 <sup>10</sup>.
+        </p>
+        <h3>Quais os múltiplos de byte?</h3>
+        <p>
+            Múltiplos de Byte são: <br>
+            1024Bytes = 1KiloByte <br>
+            1024KiloBytes = 1MegaByte <br>
+            1024MegaBytes = 1GigaByte <br>
+            1024GigaBytes = 1TeraByte <br>
+            1024TeraBytes = 1Petabyte <br>
+            1024PetaBytes = 1HexaByte <br>
+            1024HexaBytes = 1ZetaByte <br>
+            1024Zetabytes = 1YotaByte <br>
+            dentre outros múltiplos....
+        </p>
+        <h2>Sabemos que o HTML é feito por Tags, mas como é composto uma tag?</h2>
+        <p>
+            uma tag é composta por <b>sinal de menor que</b> &lt; <b>caracter que compõe a tag</b> &gt; <b>sinal de maior que</b> <br>
+            &lt;p&gt; faz a abertura de uma tag <br>
+            &lt;/p&gt; faz o fechamento de uma tag <br>
+            Tendo em vista que basta a barra para fazer o fechamento da tag aberta.
+        </p>
+        <h3>Todas as tags precisam de fechamento?</h3>
+            <p>
+                Algumas não é necessário e o programa faz isso automaticamente. Um exemplo é a tag &lt;br&gt; que serve para <br>
+                Quebrar um texto para a próxima linha. <br>
+                Já outras era Opcional. Por exemplo: &lt;li&gt;, fecha a tag automaticamente, mas é opcional. <br>
+                Essa &lt;li&gt; serve para incluir um item na lista (ordered list ou unordered list) que você está desenvolvendo.
+            </p>
+        <h2>Carácteres especiais</h2>
+        <p>
+            Ás vezes poderá incluir em seu site caracteres especiais como: <br>
+            &copy; <i>simbolo de Copyright</i> <br>
+            &reg; <i>Símbolo de Marca Registrada</i> <br>
+            &lt; <i>menor que</i> <br>
+            &gt; <i>maior que</i> <br>
+            Dentre outros.
+            Basta utilizar &(abreviação do caracter); <br>
+            o de Copyright é &+copy+; (tirando os sinais de +)
+        </p>
+        <h3>Pode ser incluido também EMOJIS!!</h3>
+        <p>
+            Você também consegue incluir emojis utilizando &#x, incluir em seguida o código do emoji e, por fim, ; (ponto e vírgula)
+            Vejamos um exemplo aqui: <code>& #x1F913 ; </code> = &#x1F913;. <br>
+            Você pode encontrar os códigos para utilizar os emojis através do site emojipedia <a href="https://emojipedia.org/" target="_blank" rel="external">clicando aqui</a>.
+        </p>
+        <h2>Hierarquia de títulos</h2>
+        <h3>O que se sabe sobre hierarquia de títulos no HTML?</h3>
+        <p>Algumas pessoas pensam que <mark>&lt;h1, h2, h3, h4&gt;..</mark> serve para aumentar ou diminuir a letra, mas isso pode ser feito pelas CSS's, essas tags são para definir títulos e sub-títulos, sendo (obviamente) <mark>h1 o primeiro título utilizado</mark> , <mark>h2 sendo sub-título</mark>,  de <mark>h1</mark>, <mark>h3 sendo subtítulo</mark>  de <mark>h2</mark> e por aí vai. <br> Tornando o que vai ser escrito em algo <mark>semântico</mark> indo até no máximo h6. <br>
+        Abaixo como funciona a hierarquia: <br>
+        <h1 class="exemplo">Titulo principal</h1>
+        <p>texto</p>
+        <h2 class="exemplo">sub-título do h1</h2>
+        <p>texto</p>
+        <h3>sub-título do h2</h3>
+        <p>texto</p>
+        <h4>sub-título do h3</h4>
+        <p>texto</p>
+        <h5>sub-título do h4</h5>
+        <p>texto</p>
+        <h6>sub-título do h5</h6>
+        <p><small>texto</small></p>
+        </p>
+        <h2>Imagens</h2>
+        <h3>O que é uma imagem?</h3>
+        <p>Uma imagem é um conjunto de pontos que vai desde o ponto 00, que vai contando desde o ponto de coluna até o ponto de linha, fazendo a multiplicação dos mesmos.</p>
+
+        <h3>formatos de imagens:</h3>
+        <h4>JPEG</h4>
+        <p> Quanto maior o arquivo, mais dificil é para carrega-lo e para coloca-lo na internet, seguindo este princípio, sabemos que a internet não pode ter arquivos pesados, é necessário compactar os mesmos. O formato Jpeg é o melhor formato de compactação de imagem para incluir imagens grandes, com boa qualidade e com pouco consumo de memória.</p>
+        <h4>PNG</h4>
+        <p>Este formato foi criado pela W3C (world wide web consortion). <br>
+            Basicamente o formato PNG foi criado para substituir o formato GIF, sendo um formato bem antigo mas a utilização do mesmo voltou com tudo após as redes sociais. <br>
+            Mesmo ele sendo um formato com imagem horrível, permite transparência e animação, já o PNG não permite animação, mas permite transparência. <br>
+            O PNG também é compactado, não tanto quanto o JPG, mas este formato também compacta os arquivos e permite transparência.
+        </p>
+        
+        <h2>Formatações adicionais</h2>
+        <h3>Marcação de texto</h3>
+        <p>
+            Pode ser utilizada para marcar um texto a tag &lt;mark style="background-color:limegreen;"&gt; <mark style="background-color:lawngreen;">texto que deseja marcar</mark> &lt;/mark&gt;. <br>
+            Agora, se quiser marcar várias palavras e frases em seu texto, basta incluir dentro do documento &lt;head&gt;. Por exemplo: <br>
+            <pre>
+                <code>
+        &lt;head&gt;
+        &lt;meta&gt; charset="UTF-8"
+        &lt;meta&gt; http-equiv="X-UA-Compatible"content="IE=edge"
+        &lt;meta&gt;name="viewport"content="width=device-widthinitial-scale=1.0"
+        &lt;title&gt; Title &lt;/title&gt;
+        &lt;style&gt;
+            mark {
+                background-color:limegreen;
+            }
+        &lt;/style&gt;
+        &lt;/head&gt;
+                </code>
+            </pre>
+            Daí em diante, basta incluir &lt;mark&gt; onde você deseja marcar.
+            <h3>Mas a tag &lt;mark&gt; faz parte de HTML?</h3>
+            <blockquote>Não, tag mark não é originária do HTML e sim do CSS</blockquote>
+        </p>
+        <h3> Big e Small </h3>
+        <p>
+            A tag &lt;<big>big</big>&gt;, segundo a W3C ficou Obsoleta, mas a &lt;<small>small</small>&gt; não, porquê? <br>
+            A tag &lt;big&gt; foi obsoleta exatamente porque não há um significado, não há <mark>semântica</mark>, se for necessário incluir um tamanho maior à frase é considerado forma e pode ser alterado nas CSS's, tudo trata-se de <mark>semântica</mark>. <br>
+            Já a &lt;small&gt; tem um significado não expecificado pela W3C, mas, segundo o professor Gustavo Guanabara:<blockquote>Um exemplo da semântica do &lt;small&gt; é tipo em um contrato, que às vezes está descrito: <q>Leia as letras miúdas.</q> que é geralmente definido como observações importantes.</blockquote> <br>
+            Através do &lt;small&gt; você ainda consegue dar sentido ao que está sendo escrito. Já no &lt;big&gt; não, por isso esta já ficou obsoleta. <br>
+        </p>
+        <h3>Deletado e Inserido</h3>
+        <p>
+            A tag &lt;<del>del</del>&gt; define um(a) letra, número, palavra, frase ou texto que pode ser lido, porém, deve ser desconsiderado durante a leitura. <br>
+            A tag &lt;<ins>ins</ins>&gt; define um(a) letra, número, palavra, frase ou texto que substitui o que foi incluido no &lt;<del>del</del>&gt; e, esse sim, deve ser considerado durante a leitura.
+        </p>
+        <h3>Sobrescrever e Subescrever</h3>
+        <p>
+            A tag &lt;<sup>sup</sup>&gt; nada mais é que colocar o que desejar acima do que foi escrito anteriormente. <br>
+            A tag &lt;<sub>sub</sub>&gt; é colocar o que desejar abaixo do que foi escrito anteriormente. <br>
+            Por exemplo: <br>
+            15<sup>10</sup> &lt; aqui foi utilizada a tag <mark>&lt;sup&gt;</mark> <br>
+            15<sub>10</sub> &lt; aqui foi utilizada a tag <mark>&lt;sub&gt;</mark>
+        </p>
+        <h2>Tipos de listas</h2>
+        <p>Dentro das Ordered List e Unordered List devem ser incluidas a tag &lt;li&gt; List Item para colocar um item na lista</p>
+        <h3>Lista Ordenada / Ordered List</h3>
+        <p>
+            A Lista Ordenada <mark>&lt;ol&gt;</mark> significa uma lista organizada por sequências de números ou letras. <br>
+            Utilizada geralmente para definir ingredientes, algo que precisa de um passo a passo. <br>
+            exemplo: <br>
+            <br>
+            Receita de bolo:
+            <ol type="i">
+                <li>2 ovos</li>
+                <li>300g farinha de trigo</li>
+                <li>1colher sopa fermento</li>
+            </ol>
+            Ela vem por padrão a sequência numérica, mas você pode mudar incluindo dentro da tag o parâmetro type. <br>
+            Por exemplo: <br>
+            <mark>&lt;ol type="a"&gt;</mark> para sequência alfabética minúscula, altere dentro das aspas para A (maiúsculo) e terá sequência alfabética maiúscula. <br>
+            Altere para i minúsculo, e terá sequência de numeração romana minúscula. <br>
+            Altere para I maiúsculo e terá sequência de numeração romana maiúscula. <br>
+        </p>
+        <h3>Lista não ordenada / Unordered List</h3>
+        A lista não ordenada <mark>&lt;ul&gt;</mark> significa uma lista que não necessita de organização, como por exemplo: <br>
+        Lista de compras:
+        <ul type="circle">
+            <li>Arroz</li>
+            <li>Feijão</li>
+            <li>Ovos</li>
+            <li>Papel higiênico</li>
+        </ul>
+        Diferente da Ordered List, esta não é classificada por sequências, mas também há variações <mark>type</mark> como a &lt;ol&gt; <br>
+        <mark>&lt;ul type="disc"&gt;</mark> vem por padrão. <br>
+        Altere dentro das aspas para "square" e terá um quadradinho como marcador. <br>
+        Altere para "circle" e terá um circulo incolorido. <br>
+        Demonstrações: <br>
+        <ul type="disc">
+            <li>Esse vem por padrão</li>
+        </ul>
+        <ul type="square">
+            <li>Quadradinho</li>
+        </ul>
+        <ul type="circle">
+            <li>Circulo traçado</li>
+        </ul>
+        <h2>Listas de definição</h2>
+        <p>
+            Listas de definição são como dicionários. sendo &lt;dl&gt; indicando o inicio dessa lista e &lt;/dl&gt; indicando o fim da mesma. <br>
+            &lt;dt&gt; é a definição do termo e &lt;dd&gt; a uma descrição mais completa do termo acima indicado. <br>
+            Ao utilizar as tags, aparece desta forma abaixo:
+        </p>
+        <dl>
+            <dt>Definição de termo</dt>
+            <dd>Descrição do termo acima</dd>
+        </dl>
+        <p>Vamos à exemplo de lista de Definição:</p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação para criação de conteúdo em um site</dd>
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação para criação do design de um site</dd>
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação para criação de interatividade em um site</dd>
+        </dl>
+        <p>CLIQUE NA IMAGEM PARA VER SOBRE O CSS!!</p>
+    </main>
+    <div class="clic">
+        <a href="css.html" target="_self"><img src="imagens/css3-logo.png" alt="Ícone CSS3"></a>
+    </div>
+</body>
+</html>
